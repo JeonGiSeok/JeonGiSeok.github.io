@@ -1,53 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="ress.css">
-    <link rel="stylesheet" href="과제.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HUDEOK</title>
 </head>
-
-
 <body>
-    <div class = 'container'>
-        <header class = 'header'>
-            <h1 class = 'brand'> likelion </h1>
-            <nav>
-                <ul class = "gnb">
-                    <li> <a href="#"> Home </a></li>
-                    <li> <a href="#"> About </a></li>
-                    <li> <a href="#"> Work </a></li>
-                    <li> <a href="#"> Blog </a></li>
-                </ul>
-            </nav>
-        </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">후덕의 역사</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
+    <h1> 안녕하세요 !</h1>
+
+
+    <link rel="stylesheet" href="{% static 'page/css/foodtruck.css' %}" type="text/css">
+
+  <div class="banner">
+    <div class="bannerText">
+      Food Truck
+    </div>
+  </div>
+  
+ 
+<div class="row no-gutters">
+<div class="col-md-4">
+  <img src="http://www.edudaily.co.kr/PEG/14804115707877.jpg" class="card-img" alt="...">
+</div>
+<div class="col-md-8">
+  <div class="card-title">
+    <h5>햅스후</h5>  
+  </div>
+  <hr>
+  <div class="card-body">
+    <div class="row">
+      <div class="col-2 col-xl-2">메뉴</div>
+      <div class="col col-xl-10">불고기바게트버거</div>
+    </div>
+    <div class="row">
+      <div class="col-2 col-xl-2">가격대</div>
+      <div class="col col-xl-10">5000원 / 7000원</div>
+    </div>
+    <div class="row">
+      <div class="col-2 col-xl-2">소개</div>
+      <div class="col col-xl-10">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="row no-gutters">
+<div class="col-md-4">
+  <img src="http://www.edudaily.co.kr/PEG/14804115707877.jpg" class="card-img" alt="...">
+</div>
+<div class="col-md-8">
+  <div class="card-title">
+    <h5>마쵸타코</h5>  
+  </div>
+  <hr>
+  <div class="card-body">
+    <div class="row">
+      <div class="col-2 col-xl-2">메뉴</div>
+      <div class="col col-xl-10">타코야끼</div>
+    </div>
+    <div class="row">
+      <div class="col-2 col-xl-2">가격대</div>
+      <div class="col col-xl-10">3000원 / 5000원</div>
     </div>
 
-<div id = 'banner'> 
-<div class = 'landing'>
-    <div class = 'container'>
-        <h2 class = 'div-title'> hack your life </h2>
-        <p> Lorem ipsim dolor sit amet, concsctetur adipisicing elit. At, ipsam, autem magnam quam eum quos, aliquid officia adipisci qiaerat est, in et corporis consequuntur perspiciatis porro quo deleniti doloremque assumenda. </p>
-    </div>
-</div>    
-</div>
-
-<div class = 'article'>
-    <img src="11.jpg" class = "img" alt=""> <p> avxdfef</p>
-    <img src="22.jpg" class = "img" alt=""> <p>ddfdfdfdf</p>
-    <img src="33.jpg" class = "img" alt="">  <p>dfdfsdfsf</p>
-
-</div>
-
-
-
-<footer class = 'footer'>
-    <p class = 'foot_p'> Copyright JKS, 2019 </p>
-</footer>
-
-    
 </body>
-
-
 </html>
